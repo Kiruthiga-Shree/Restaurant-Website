@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- bootstrap -->
+  <!-- material font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <!-- material font -->
+
+  <!-- Css file -->
+  <link rel="stylesheet" href="ecom.css">
+  <!-- Css file -->
+
+  <!-- animation plugin -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- animation plugin -->
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark p-3 fixed-top" data-bs-theme="dark" id="nav">
+    <div class="container-fluid">
+      <h2><a class="navbar-brand ms-5" href="#">HappyEating</a></h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav ul">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#ambience">Ambience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#choice">Choice</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#spl">Special</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#book">Book</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="bg" id="home">
+    <div class="overlay"></div>
+    <img
+      src="https://images.unsplash.com/photo-1538333581680-29dd4752ddf2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+      alt="">
+  </div>
+  <div class="row welcome" id="home">
+    <div class="col-md-6 col-lg-12">
+      <h1 class="ps-5" data-aos="fade-up" data-aos-duration="1000">Welcome to <span
+          class="text-warning">HappyEating</span></h1>
+      <p class="ps-5 pt-3" data-aos="fade-up" data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Sint, nulla!</p>
+    </div>
+  </div>
+  <div class="row ps-5" id="home">
+    <div class="col-2 btn1">
+      <button type="button" class="btn border border-warning rounded-5 p-3 text-light fs-6"
+        style="width: 120px;">MENU</button>
+    </div>
+    <div class="col-2 btn2">
+      <button type="button" class="btn border border-warning rounded-5 p-3 text-light fs-6" style="width: 120px;">BOOK</button>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-center align-items-center pt-5 ps-5 sec" id="ambience">
+    <div class="col-md-6 sec2">
+      <p class="fw-medium fs-4  ps-auto text-light">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est officiis dolorem tempore nobis illum commodi
+        cupiditate deserunt exercitationem suscipit accusantium. Dignissimos minima, quo autem accusantium eveniet
+        laudantium, reiciendis harum itaque consequuntur corporis consectetur quae. Obcaecati libero laborum doloribus
+        culpa ab itaque. Voluptate error nostrum aliquam quidem nam possimus similique voluptas.
+      </p>
+      <p class="fw-medium fs-4 ps-auto text-light">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ipsam.
+      </p>
+    </div>
+
+    <div class="col-md-6 img p-5">
+      <img
+        src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+        class="img-fluid border border-danger border-5" data-aos="zoom-in-up" data-aos-duration="1500" alt="">
+    </div>
+  </div>
+  <div class="row ps-5 justify-content-center" id="choice">
+    <div class="why px-auto">
+      <h2 class="text-warning display-4">Why Choose Our Restaurant</h2>
+    </div>
+    <div class="row ps-auto pt-5 grid">
+      <div class="col-md-4" data-aos="zoom-in-right">
+        <div class="box">
+          <h4 class="p-3 fw-bolder fs-2">01</h4>
+          <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quis? Nobis atque, provident
+            soluta ipsam porro facere ea maxime vel voluptate amet et nihil aperiam..</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in-right">
+        <div class="box">
+          <h4 class="p-3 fw-bolder fs-2">02</h4>
+          <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quis? Nobis atque, provident
+            soluta ipsam porro facere ea maxime vel voluptate amet et nihil aperiam..</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in-right">
+        <div class="box">
+          <h4 class="p-3 fw-bolder fs-2">03</h4>
+          <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quis? Nobis atque, provident
+            soluta ipsam porro facere ea maxime vel voluptate amet et nihil aperiam..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row px-5 pt-5" id="spl">
+    <div class="fs-5 text-light d-flex flex-row">
+      <p class="px-auto">RESTAUARANT SPECIAL</p>
+      <hr class="ms-3" style="width: 50px;">
+    </div>
+    <h2 class="text-warning display-4 px-auto">Iconic Dishes</h2>
+    <div class="row g-0">
+      <div class="col-md-4">
+        <div class="gallery-box">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="img-fluid" alt=""  data-aos="flip-up">
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery-box">
+        <img src="https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="img-fluid" alt=""  data-aos="flip-up">
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery-box">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" class="img-fluid" alt=""  data-aos="flip-up">
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery-box">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="img-fluid" alt=""  data-aos="flip-up">
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery-box">
+        <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="img-fluid" alt=""  data-aos="flip-up">
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery-box">
+        <img src="https://images.unsplash.com/photo-1484325881845-65073528922e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" class="img-fluid" alt=""  data-aos="flip-up">
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery-box">
+        <img src="https://images.unsplash.com/photo-1485704686097-ed47f7263ca4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1192&q=80" class="img-fluid" alt=""  data-aos="flip-up">
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery-box">
+        <img src="https://images.unsplash.com/photo-1455853659719-4b521eebc76d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="img-fluid" alt=""  data-aos="flip-up">
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery-box">
+        <img src="https://images.unsplash.com/photo-1564844536308-75c540dbf14e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" class="img-fluid" alt=""  data-aos="flip-up">
+      </div>
+      </div>
+      </div>
+
+
+
+  </div>
+  <div class="row px-auto pt-5" id="book">
+    <div class="fs-5 text-light d-flex flex-row">
+      <p class="ps-5">RESERVATION</p>
+      <hr class="ms-3" style="width: 50px;">
+    </div>
+    <div class="form">
+      <h2 class="text-warning display-4 ps-5">Book a Table</h2>
+      <div class="row px-5 pt-5">
+        <div class="col-md-4">
+          <div class="mb-3">
+           
+            <input type="text" class="form-control" id="Input" placeholder="Name">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-3">
+           
+            <input type="email" class="form-control" id="Input" placeholder="Your Email">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-3">
+            <input type="number" class="form-control" id="Input" placeholder="Your Mobile Number">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-3">
+           
+            <input type="date" class="form-control" id="Input" placeholder="Date">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-3">
+           
+            <input type="time" class="form-control" id="Input" placeholder="Time">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mb-3">
+            <input type="number" class="form-control" id="Input" placeholder="Number of People">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-12">
+        <div class="mb-3">
+          <textarea class="form-control" id="Input" rows="4" placeholder="Message"></textarea>
+        </div>
+        </div>
+    </div>
+    <div class="row ps-5  pt-3">
+      <div class="col-md-6 col-lg-12 text-center">
+        <div class="btn border-warning rounded-5 text-light fs-6 btn">Book a Table</div>
+      </div>
+    </div>
+  </div>
+  </div>
+ 
+  
+  </div>
+  </div>
+
+
+
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    background-color:rgba(0, 0, 0, 0.863);
+}
+#nav h2 a{
+    font-size: 30px;
+}
+.ul li a{
+    font-size: 18px;
+}
+nav{
+    width: 100%;
+}
+.bg{
+    width:100%;
+    height: 730px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height:95%;
+    width:100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .welcome h1{
+    z-index:20;
+    color: white;
+    margin-top: -400px;
+    position: absolute;
+    font-weight:900;
+    font-family: 'Poppins', sans-serif;
+  }
+  .btn1{
+    margin-top: -280px;
+    z-index: 20;
+    position: absolute;
+  }
+  .btn2{
+    margin-left:150px;
+    margin-top: -280px;
+    z-index: 20;
+    position: absolute;
+  }
+  .welcome p{
+    z-index:20;
+    color: white;
+    margin-top: -350px;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+  }
+  .welcome span{
+    font-weight:900;
+    font-family: 'Poppins', sans-serif;
+  }
+.bg img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /* position: fixed; */
+}
+.gallery-box{
+    transition: transform .5s;
+}
+.gallery-box:hover{
+    transform: scale(1.2);
+}
+.sec2 p{
+    z-index:20;
+    color: white;
+}
+.box{
+    padding: 15px;
+    height: 250px;
+    color: white;
+    background-color: rgba(45, 45, 45, 0.418);
+}
+.box:hover{
+   background-color:orange;
+   padding: 25px;
+}
+#Input{
+    background-color:rgba(251, 241, 222, 0.863);
+    border: 2px solid orange;
+    color:white;
+
+}
+.btn:hover{
+    background-color: orange;
+}
+@media (max-width:768px){
+    .welcome p{
+        margin-top: -320px;
+        font-size: 20px;
+    }
+    .btn1 button{
+        margin-top:70px;
+        z-index: 20;
+      }
+      .btn2 button{
+        margin-top:150px;
+        z-index: 20;
+        margin-left: -145px;
+      }
+      .bg{
+        width: 100%;
+      }
+      .overlay{
+        width: 100%;
+        height: 100%;
+        min-height: 500px;
+      }
+      .grid{
+       gap: 55px;
+      }
+      .box{
+        height: 330px;
+      }
+      .box:hover{
+        height: 370px;
+      }
+}
